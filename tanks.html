@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2016 by alexgrand (http://jsbin.com/cunonu/12/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="tanks">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+*{
+  margin: 0;
+  padding: ;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.gameWindow {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid red;
+}
+.tank {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  /*border: 1px solid grey;*/
+}
+.block{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 120px;
+  left: 120px;
+  background-color: green;
+  /*border: solid 1px green;*/
+}
+#b0 {
+  top: 80px;
+  left: 250px;
+}
+#b1{
+  top: 270px;
+  left:60px;
+  background-color: red;
+}
+#b2{
+  top: 270px;
+  left: 250px;
+  background-color: yellow;
+}
+#b3 {
+  top: 80px;
+  left: 60px;
+  background-color: blue;
+}
+</style>
+</head>
+<body>
+<div class="gameWindow">
+  <div id="playerTank" class="tank"></div>
+  <div class="block" id='b0'>i</div>
+  <div class="block" id="b1"></div>
+  <div class="block" id="b2"></div>
+  <div class="block" id="b3"></div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
